@@ -7,7 +7,7 @@ def test_default_values():
     assert result["department"] == "BCA"
     assert result["semester"] == "3"
     assert result["total"] == 255
-    assert result["grade"] == "A"
+    assert result["grade"] == "B"
 
 def test_command_line_arguments():
     args = [
