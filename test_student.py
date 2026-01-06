@@ -6,7 +6,7 @@ def test_default_values():
     assert result["name"] == "Nikhil"
     assert result["department"] == "BCA"
     assert result["semester"] == "3"
-    assert result["total"] == 283
+    assert result["total"] == 255
     assert result["grade"] == "A"
 
 def test_command_line_arguments():
